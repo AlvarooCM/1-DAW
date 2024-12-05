@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        html{
+            
+        }
+        body{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: "Oswald", sans-serif;
+        }
+        header,footer{
+            background-color: gold;
+        }
+        main{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        article{
+            width: 30vw;
+            height: 40vh;
+            background-color: white;
+    
+        }
+        article:nth-of-type(2){
+            background-color: blueviolet;
+        }
+        article:nth-of-type(3){
+            background-color: brown;
+        }
+        article:nth-of-type(4){
+            background-color: chartreuse;
+        }
+        article:nth-of-type(5){
+            background-color: chocolate;
+        }
+        article:nth-of-type(6){
+            background-color: crimson;
+        }
+        article:nth-of-type(7){
+            background-color: darkgreen;
+        }
+        article:nth-of-type(8){
+            background-color: fuchsia;
+        }
+        article:nth-of-type(9){
+            background-color: greenyellow;
+        }
+        p{
+            margin: 0;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: crimson;
+
+        }
+        
+        a:hover{
+            color: gold;
+        }
+        a:active{
+            color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <header><p>This is the header</p></header>
+    <main>
+    <article><p><a href="formularios.html">Link to formularios</a></p></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article></main>
+    <footer><p>This is the footer</p></footer>
+    
+</body>
+</html>

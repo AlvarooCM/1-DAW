@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvaro Camino Martinez</title>
+</head>
+<body>
+    <h1>Welcome to the 24x7 Compostela Fitness Club : Courts Reservation Page!!</h1>
+    <img src="./img/planification.png" alt="" width="400">
+    <br>
+    <form action="nothing.php" method="POST">
+    <fieldset>
+        <legend>Member Demographics</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="Name" id="name">
+        <p>Are you a Member?</p>
+        <input type="radio" name="member" id="member" value="member">
+        <label for="member">Member:</label>
+        <input type="radio" name="Non-member" id="non-member" value="non-member">
+        <label for="male">Non-member:</label>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+    </fieldset>
+    <p>Facility
+    <select name="Indoor football">
+        <option value="1">Indoor football</option>
+        <option value="2">Badminton</option>
+        <option value="3">Squash</option>
+        <option value="4">Racquetball</option>
+        <option value="5">Basquetball</option>
+    </select>
+    </p>
+    <p>Select a reservation date and time:</p>
+    <input type="date">
+    <input type="time">
+    <br>
+    <br>
+    <input type="checkbox" name="policy" id="policy" value="policy">
+        <label for="policy">I agree to the club's reservation policy</label>
+        <br>
+        <br>
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>

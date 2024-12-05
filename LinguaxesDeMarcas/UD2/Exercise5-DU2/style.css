@@ -1,0 +1,65 @@
+header{
+    background-color: #62306D;
+    color: #F7EC7D;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    height: 275px;
+}
+
+main{
+    background-image:url(donuts.png);
+    height: 600px;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+
+footer{
+    background-color:#62306D;
+    color: #F7EC7D;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+}
+
+#circulo-amarillo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #F7EC7D;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+#circulo-morado{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: #62306D;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+#rectangulo-naranja{
+    width: 100px;
+    height: 100px;
+    background-color: #E38F66;
+    position: absolute;
+    border-radius: 100px 0 0 0;
+}
+
+#cabezera{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#pie{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 900px;
+}
