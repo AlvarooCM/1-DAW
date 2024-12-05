@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<trip>
+    <travellers>
+        <traveller>
+            <name>Alvaro</name>
+            <surname>Camino</surname>
+            <surname>Martínez</surname>
+        </traveller>
+        
+        <traveller>
+            <name>Carla</name>
+            <surname>Perez</surname>
+            <surname>Martínez</surname>
+        </traveller>
+    </travellers>
+    <begindate>5-12-2024</begindate>
+    <enddate>9-12-2024</enddate>
+    <departureplace>Santiago de Compostela, Galicia</departureplace>
+    <destinations>
+        <destination>
+            <city>London</city>
+            <hotel>Park Plaza Westminster Bridge London</hotel>
+            <nights>2</nights>
+            <price>512 EUR</price>
+        </destination>
+        <destination>
+            <city>Oxford</city>
+            <hotel>Golden Cross Guesthouse</hotel>
+            <nights>2</nights>
+            <price>375 EUR</price>
+        </destination>
+    </destinations>
+</trip>

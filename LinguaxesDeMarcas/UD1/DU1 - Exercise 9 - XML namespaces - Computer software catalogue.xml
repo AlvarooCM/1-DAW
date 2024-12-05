@@ -1,0 +1,50 @@
+<!--Creates an XML document representing a catalogue of computer software. Use namespaces to differentiate between operating system software and office application software. Ensure that the document is well-formed.-->
+
+<catalog xmlns:os="https://www.os.com/os" xmlns:office="https://www.os.com/software">
+
+    <os:software>
+        <os:name>Windows</os:name>
+        <os:version>11</os:version>
+        <os:developer>Microsoft<os:developer>
+        <os:url>https://microsoft.com/es-es/software-download/windows11</os:url>
+    </os:software>
+
+    <os:software>    
+        <os:name>Linux</os:name>
+        <os:version>Debian 11</os:version>
+        <os:developer>Ian Murdock<os:developer>
+        <os:url>https://www.debian.org/distrib/</os:url>
+    </os:software>
+
+    <os:software>
+        <os:name>macOS</os:name>
+        <os:version>Sequoia 15.0</os:version>
+        <os:developer>Apple.Inc</os:developer>
+        <os:url>https://support.apple.com/es-es/109033</os:url>
+    </os:software>        
+
+    <office:software>
+        <office:name>Office 365</office:name>
+        <office:version>16</office:version>
+        <office:developer>Microsoft</office:developer>
+        <office:url>https://www.office.com/</office:developer>
+    </office:software>
+
+    <office:software>
+        <office:name>Python</office:name>
+        <office:version>3.10.2</office:version>
+        <office:developer>Guido van Rossum</office:developer>
+        <office:url>https://www.python.org/</office:developer>
+    </office:software>
+
+    <office:software>
+        <office:name>Java</office:name>
+        <office:version>8</office:version>
+        <office:developer>Oracle</office:developer>
+        <office:url>https://www.java.com/es/</office:developer>
+    </office:software>
+
+</catalog>
+
+
+

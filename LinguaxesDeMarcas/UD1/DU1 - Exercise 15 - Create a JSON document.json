@@ -1,0 +1,32 @@
+{
+        "person": {
+            "name": "Stephen",
+            "surnames": "Edwin King",
+            "birthdate": "21/09/1947",
+            "birthplace": "Portland, Maine, USA",
+            "deathdate": null,
+            "deathplace": null,
+            "list of movies": {
+                "movietitle": "IT",
+                "filmingdate": "27/06/2016"
+             },
+                "movietitle": "Quick Silver Highway",
+                "filmingdate": "13/05/1997"           
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

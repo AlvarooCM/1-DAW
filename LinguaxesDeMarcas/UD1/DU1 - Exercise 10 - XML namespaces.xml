@@ -1,0 +1,21 @@
+Indicate the namespace for each tag of the following XML document:
+
+<mm xmlns:a="http://www.rr.org" xmlns="http://www.ss.org"> <!-- ss -->
+
+         <a:nn> <!-- rr -->
+
+ <pp xmlns="http://www.tt.org" xmlns:b="http://www.uu.org"> <!-- tt -->
+
+ <b:oo>Hello</b:oo> <!-- uu -->
+
+ </pp> <!-- tt -->
+
+ <c:qq xmlns="http://www.vv.org" xmlns:c="http://www.ww.org"> <!-- ww -->
+
+ <rr>Good bye</rr> <!-- vv -->
+
+ </c:qq>
+
+ </a:nn>
+
+</mm>

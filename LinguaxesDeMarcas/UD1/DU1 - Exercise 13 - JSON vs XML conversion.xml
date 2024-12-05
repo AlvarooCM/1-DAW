@@ -1,0 +1,29 @@
+ <?xml version=1.0 ?>
+  
+  <person>
+      <name>Helen</name>
+      <surname>Smith</surname>
+      <profession>Software Engineer</profession>
+      <age>31</age>
+      <address>
+          <city>New York</city>
+          <postalCode>64780</postalCode>
+          <country>USA</country>
+      </address>
+      <languages>
+          <language>Java</language>
+          <language>Node.js</language>
+          <language>JavaScript</language>
+          <language>JSON</language>
+      </languages>
+      <socialProfiles>
+          <profile>
+          <name>Twitter</name>
+          <link>"https://twitter.com"</link>
+          </profile>
+          <profile>
+          <name>Facebook</name>
+          <link>"https://www.facebook.com"</link>
+          </profile>
+      </socialProfiles>  
+  </person>
