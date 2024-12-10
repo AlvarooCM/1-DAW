@@ -1,0 +1,20 @@
+{
+ "evento": {
+    "nombre": "Kdd Sionlla",
+    "fecha": "13-12-2024",
+    "lugar":{
+        "ciudad": "Santiago de compostela",
+        "lugar_exacto": "Polígono Costa Vella"
+    }
+ },  
+ "participantes":[
+    {"nombre": "Nejro", "coche": "Ford Focus Mk2.5"},
+    {"nombre": "LariNOS", "coche": "VW Golf Mk4"},
+    {"nombre":"Rubennd", "coche": "VW Golf Mk4"}
+ ],
+ "velocidad maxima":[
+    {"nombre": "Nejro", "coche": "Ford Focus Mk2.5", "velocidad": "205km/h"},
+    {"nombre": "LariNOS", "coche": "VW Golf Mk4", "velocidad": "180km/h"},
+    {"nombre":"Rubennd", "coche": "VW Golf Mk4", "velocidad": "220km/h"}
+ ]    
+}
