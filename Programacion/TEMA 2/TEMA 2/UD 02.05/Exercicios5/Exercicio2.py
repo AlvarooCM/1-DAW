@@ -13,7 +13,6 @@ while True:
         if numero < 0:
             continue
         break
-    
     except:
         pass
     print (f"Ha realizado {intentos} intentos.")

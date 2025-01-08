@@ -16,7 +16,7 @@ def ingresar_datos():
             print("Introduce un número válido.")
     alumnos.append({"nombre": nombre, "apellidos": apellidos, "nota": nota})
     print("Alumno añadido con éxito.\n")
-
+    
 def eliminar_datos():
     """Función para eliminar un alumno."""
     listar_alumnos()

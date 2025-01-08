@@ -10,11 +10,11 @@ def celsius_to_farenheit(celsius: float) -> float:
         raise ValueError()
 
     fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+        return fahrenheit
         raise ValueError()
 
     if celsius < 0:
         raise ValueError()
 
     fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+        return fahrenheit
