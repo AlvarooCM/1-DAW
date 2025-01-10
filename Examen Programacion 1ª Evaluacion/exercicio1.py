@@ -60,7 +60,7 @@ try:
 except ValueError:
     print("Error de tipo de datos, porfavor vuelva a introducirlos.")
 
-#El programa devuelve True si el vehiculo debe ser multado y False sino debe ser multado.
+# El programa devuelve True si el vehiculo debe ser multado y False sino debe ser multado.
 
 
 

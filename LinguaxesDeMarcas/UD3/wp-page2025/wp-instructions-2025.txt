@@ -1,0 +1,10 @@
+Create and edit a page in WordPress using WP REST
+Use the Twenty Twenty-Five theme.
+Configure the permalink to use the post name. 
+Reproduce the page in the image using VS Code.
+All list elements in the content have to link to the corresponding headers on the page.
+The button with the text WordPress has to link to the WordPress website.
+Video URL: https://youtu.be/71EZb94AS1k?si=qzttxcB2r7Kf4i2d
+Audio URL: https://episodes.castos.com/womeninwp/1852616/c1e-4d0xf429kkt84j24-kpdd4z45b72o-axdrv5.mp3
+Upload the page using the WP REST web service.
+Modify the styles in the page using WordPress.
