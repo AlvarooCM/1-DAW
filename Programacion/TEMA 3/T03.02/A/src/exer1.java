@@ -12,11 +12,19 @@ public class exer1 {
         System.out.println("Introduzca la cantidad de numero que desee: ");
         int cantidadNumeros = scanner.nextInt();
 
-        int[] numeros = new int[cantidadNumeros];
+        if (cantidadNumeros > 0){
+            int[] numeros = new int[cantidadNumeros];
 
-        for(int i = 0; i < numeros.length; i++){
-            System.out.println(numeros[i]);
+            for(int i = 0; i < cantidadNumeros; i++){
+                System.out.print("Introduzca un numero: ");
+                int numero_auxiliar = scanner.nextInt();
+                numeros[i] = numero_auxiliar;
+            }
+
+            for(int i= cantidadNumeros - 1; i>=0; i--){
+                    System.out.println(numeros[i]);
+            }
         }
     }
-    
-}
+}    
+

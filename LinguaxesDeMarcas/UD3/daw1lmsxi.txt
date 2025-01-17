@@ -1,0 +1,16 @@
+daw1lmsxi
+Front_24
+
+API PASSWORD
+kec9 CN18 VAkb ByXc SODM XLhB
+
+https://api.slingacademy.com/v1/sample-data/blog-posts/1
+https://student-domain/?rest_route=/wp/v2/posts
+https://student-domain/wp-json/wp/v2/posts
+https://student-domain/wp-admin/index.php
+https://student-domain/wp-json/wp/v2/categories
+https://student-domain/wp-json/wp/v2/tags?name=football
+
+SUBIR FOTOS:
+
+-> attachment;filename="nombre de la foto me cago en dios.jpg"
