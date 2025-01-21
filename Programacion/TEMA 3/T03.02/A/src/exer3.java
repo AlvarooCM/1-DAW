@@ -29,7 +29,7 @@ Calcula o valor da suma de cada fila. Imprime eses valores en orde con System.ou
              
             for(int f = 0; f < matriz [c].length; f++){
 
-                System.out.println("Introduzca el valor da columna " + c + " e fila " + f + " :");
+                System.out.println("Introduzca el valor [" + c + "] [" + f + "] :");
                 
                 int valor = scanner.nextInt();
                 matriz[c][f] = valor;

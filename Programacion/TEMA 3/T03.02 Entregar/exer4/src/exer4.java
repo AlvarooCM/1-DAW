@@ -20,38 +20,51 @@ public class exer4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        //* Pido numero de estudiantes. */
+
         System.out.println("Introduzca el numero de estudiantes del curso: ");
         int estudiantes = scanner.nextInt();
+
+        //* Pido numero de modulos */
 
         System.out.println("Introduzca el numero de modulos del curso: ");
         int modulos = scanner.nextInt();
 
-        System.out.println("Introduzca las notas de cada alumno en cada 1 de los modulos: ");
-        int notas = scanner.nextInt();
+        //* Creo una matriz para guardar las notas y la voy a llamar curso. */
 
-        int [][][] curso  = new int[estudiantes][modulos][notas];
+        double[][] curso  = new double[estudiantes][modulos];
 
-        for(int c = 0; c < curso.length; c++){
-            for(int f = 0; f < curso [c].length; f++){
-                for(int p = 0; p < curso [f].length; p++){
-
-                    System.out.println("Introduzca los valores de las columnas " + c + "fila" + f + "profundidad" + p + " :");
-
-                    int valor = scanner.nextInt();
-                    curso[c][f][p] = valor;
-                }
+        for(int i = 0; i < estudiantes; i++){
+            for (int j = 0; j < modulos; j++){
+                System.out.println("Dato ["+ i +"] ["+ j +"]");
             }
         }
-
+        
         while (true) {
 
+            System.out.println("Menu:");
+
+            System.out.println("a) Media dun alumno/a");
+
+            System.out.println("b) Porcentaxe de alumnos aprobados");
+
+            System.out.println("Ingrese la opcion a escoger:");
+
+            int opcion = scanner.nextInt();
+
+            switch (opcion) {
+                case 1:
+                    
+                    break;
             
-            
+                default:
+                    break;
+            }
+
         }
 
 
-
-
+            
 
 
     }

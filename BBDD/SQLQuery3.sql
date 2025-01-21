@@ -1,0 +1,36 @@
+CREATE DATABASE a24alvarocm_BDEmpleados;
+USE a24alvarocm_BDEmpleados;
+
+CREATE TABLE TCENTR (
+
+		NUMCE char(2) PRIMARY KEY,
+		NOMCE varchar(30) NOT NULL,
+		SEÑAS varchar(100) NOT NULL,
+);
+
+CREATE TABLE TDEPTO (
+
+		NUMDE char(3) PRIMARY KEY,
+		NUMCE char(2) NOT NULL,
+		DIREC char(3),
+		TIDIR char(1),
+		PRESU smallint,
+		DEPDE char(3),
+		NOMDE varchar(30) NOT NULL,
+
+		CONSTRAINT FK_TCENTR FOREIGN KEY (NUMCE) REFERENCES TCENTR(NUMCE) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE TEMPLE(
+
+		NUMEM char(3) PRIMARY KEY,
+		NUMDE char(3),
+		EXTEL char(3) NOT NULL,
+		FECNA date NOT NULL,
+		FECIN date NOT NULL,
+		SALAR smallmoney NOT NULL,
+		COMIS smallmoney,
+		NUMHI char(1),
+		NOMEM varchar(30),
+);
+
