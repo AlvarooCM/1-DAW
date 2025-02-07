@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE business [
+    <!ELEMENT business (videogame|toy)*>
+    <!ELEMENT videogame (title,developer,release_date?)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT developer (#PCDATA)>
+    <!ELEMENT release_date (#PCDATA)>
+    <!ELEMENT toy (#PCDATA)>
+    <!ATTLIST toy color CDATA #IMPLIED>
+]>
+<business>
+    <videogame>
+        <title>Dragon Quest IX</title>
+        <developer>Level 5</developer>
+        <release_date>2009</release_date>
+    </videogame>
+    <videogame>
+        <title>Fortnite</title>
+        <developer>Epic Games</developer>
+    </videogame>
+    <toy color="black">Story</toy>
+    <toy>Boy</toy>
+</business>
