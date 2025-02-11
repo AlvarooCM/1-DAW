@@ -1,0 +1,9 @@
+<!ELEMENT films (film*, filmmaker*, info)>
+<!ELEMENT film (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST film id ID #REQUIRED>
+<!ATTLIST film maker IDREF #IMPLIED>
+<!ELEMENT filmmaker (name)>
+<!ATTLIST filmmaker id ID #REQUIRED>
+<!ELEMENT info (#PCDATA|important)*>
+<!ELEMENT important EMPTY>

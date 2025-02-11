@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE business [
-    <!ELEMENT business (videogame|toy)*>
+    <!ELEMENT business (videogame|toy|game)*>
     <!ELEMENT videogame (title,developer,release_date?)>
     <!ELEMENT title (#PCDATA)>
     <!ELEMENT developer (#PCDATA)>
     <!ELEMENT release_date (#PCDATA)>
     <!ELEMENT toy (#PCDATA)>
-    <!ATTLIST toy color CDATA #IMPLIED>
+    <!ATTLIST toy color NMTOKEN #IMPLIED>
+    <!ELEMENT game EMPTY>
 ]>
 <business>
     <videogame>
@@ -20,4 +21,5 @@
     </videogame>
     <toy color="black">Story</toy>
     <toy>Boy</toy>
+    <game/>
 </business>

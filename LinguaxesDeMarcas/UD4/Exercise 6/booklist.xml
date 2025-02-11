@@ -11,7 +11,7 @@
     <book>
         <bookname>Python</bookname>
         <author>Java</author>
-        <price>99</price>
-        <homepage>88888</homepage>
+        <price>29.99€</price>
+        <homepage>www.python.com</homepage>
     </book>
 </booklist>

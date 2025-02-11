@@ -1,0 +1,32 @@
+<?xml version="1.0"?>	
+<!DOCTYPE stock[	
+    <!ELEMENT stock (new-car|used-car)*>	
+    <!ELEMENT new-car (model,price)>	
+    <!ELEMENT used-car (model,price,mileage,condition?)>	
+    <!ELEMENT model (#PCDATA)>	
+    <!ELEMENT price (#PCDATA)>	
+    <!ELEMENT mileage (#PCDATA)>	
+    <!ELEMENT condition (#PCDATA)>	
+]>
+<stock>
+    <new-car>
+        <model>Ford Focus 2.5</model>
+        <price>18.000</price>
+    </new-car>
+    <used-car>
+        <model>VW Golfo 4</model>
+        <price>4.300</price>
+        <mileage>450.000</mileage>
+        <condition>Destartalado</condition>
+    </used-car>
+    <new-car>
+        <model>Renault Megane 4</model>
+        <price>27.000</price>
+    </new-car>
+    <used-car>
+        <model>Seat Leon 1</model>
+        <price>500</price>
+        <mileage>190.000</mileage>
+        <condition>Era de alquiler ahora teno un culon asi que nin idea de como ta, bueno polo que vin taba destartalado tamen.</condition>
+    </used-car>
+</stock>

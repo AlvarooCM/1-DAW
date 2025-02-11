@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE films SYSTEM "films.dtd">
+<films>
+    <film id="A1" maker="FM1">
+        <name>Forest Gamp</name>
+    </film>
+    <film id="A2" maker="FM2">
+        <name>War of the world</name>
+    </film>
+    <film id="A3" maker="FM3">
+        <name>American psyco</name>
+    </film>
+    <filmmaker id="FM1">
+        <name>Robert Zemeckys</name>
+    </filmmaker>
+    <filmmaker id="FM2">
+        <name>Steven Spielberg</name>
+    </filmmaker>
+    <filmmaker id="FM3">
+        <name>Mary Harron</name>
+    </filmmaker>
+    <info>
+        <important/>
+        This films are really interesting
+    </info>
+</films>
