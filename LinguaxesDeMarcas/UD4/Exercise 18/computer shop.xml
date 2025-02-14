@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE computer-shop [
+    <!ELEMENT computer-shop (products*, customers, sales)>
+    <!ELEMENT products (product*)>
+    <!ELEMENT product (title, manufacturer, model, price, stock, reaconditioned)>
+    <!ATTLIST product id ID #REQUIRED>
+    <!ATTLIST product currency CDATA #REQUIRED>
+    <!ATTLIST product discount CDATA "0">
+    <!ATTLIST product VAT CDATA #REQUIRED>
+    <!ATTLIST product EAN CDATA #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT manufacturer (#PCDATA)>
+    <!ELEMENT model (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT stock (#PCDATA)>
+    <!ELEMENT reaconditioned EMPTY>
+
+    <!ELEMENT customers (customer)>
+    <!ELEMENT customer (id-card, first-name, first-surname, second-surname, telephone-number, postal-address)>
+    <!ATTLIST customer id ID #REQUIRED>
+    <!ATTLIST customer date-creation CDATA #REQUIRED>
+    <!ELEMENT id-card (#PCDATA)>
+    <!ELEMENT first-name (#PCDATA)>
+    <!ELEMENT first-surname (#PCDATA)>
+    <!ELEMENT second-surname (#PCDATA)>
+    <!ELEMENT telephone-number (#PCDATA)>
+    <!ELEMENT postal-address (#PCDATA)>
+
+    <!ELEMENT sales (sale)>
+    <!ELEMENT sale (#PCDATA)>
+
+
+
+
+]>
+<computer-shop>
+    <products>
+        <product id="1" currency="" discount="" VAT="" EAN="">
+            <title></title>
+            <manufacturer></manufacturer>
+            <model></model>
+            <price></price>
+            <stock></stock>
+            <reaconditioned></reaconditioned>
+        </product>
+    </products>
+    <customers>
+        <customer id="1" date-creation="14-02-2025">
+            <id-card></id-card>
+            <first-name></first-name>
+            <first-surname></first-surname>
+            <second-surname></second-surname>
+            <telephone-number></telephone-number>
+            <postal-address></postal-address>
+        </customer>
+    </customers>
+    <sales>
+        <sale date-of-sale="14-02-2025" customer-id="1" product-id="1" quantity-sold="">
+            <list-products-sold></list-products-sold>
+            <total-price></total-price>
+            <currency></currency>
+        </sale>
+    </sales>
+</computer-shop>
