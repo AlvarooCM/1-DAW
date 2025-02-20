@@ -1,0 +1,15 @@
+<shiporder orderid="1">
+    <orderperson></orderperson>
+    <shipto>
+        <name>Jacobo</name>
+        <address>Rua da barrosa 97</address>
+        <city>Santiago de Compostela</city>
+        <country>Spain</country>
+    </shipto>
+    <item>
+        <title>Pailanes unidos</title>
+        <note>Cuidado con la puerta de embarque que hay un pasajero atascado.</note>
+        <quantity>76</quantity>
+        <price>799.99</price>
+    </item>
+</shiporder>

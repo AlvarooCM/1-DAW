@@ -44,9 +44,9 @@ def radar (distancia: float, velocidade_maxima_tramo: float, segundos: float) ->
     velocidade_vehiculo = distancia_kilometros / tiempo_en_horas
     
     if velocidade_vehiculo >= velocidade_maxima_tramo:
-        return True
+        return "Multa"
     else:
-        return False
+        return "Safaste"
     
 try:
     distancia = float(input("Introduce la distancia entre radares en metros:"))

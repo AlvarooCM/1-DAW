@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE computer-shop [
-    <!ELEMENT computer-shop (products*, customers, sales)>
-    <!ELEMENT products (product*)>
-    <!ELEMENT product (title, manufacturer, model, price, stock, reaconditioned)>
+    <!ELEMENT computer-shop (products, customers?, sales?)>
+    
+    <!ELEMENT products (product+)>
+    <!ELEMENT product (title, manufacturer?, model, price, stock, reaconditioned?)>
     <!ATTLIST product id ID #REQUIRED>
-    <!ATTLIST product currency CDATA #REQUIRED>
-    <!ATTLIST product discount CDATA "0">
-    <!ATTLIST product VAT CDATA #REQUIRED>
-    <!ATTLIST product EAN CDATA #REQUIRED>
+    <!ATTLIST product currency (EUR | USD) #REQUIRED>
+    <!ATTLIST product discount NMTOKEN "0">
+    <!ATTLIST product VAT (general | reducido | super-reducido) #REQUIRED>
+    <!ATTLIST product EAN NMTOKEN #IMPLIED>
+
     <!ELEMENT title (#PCDATA)>
     <!ELEMENT manufacturer (#PCDATA)>
     <!ELEMENT model (#PCDATA)>
@@ -15,10 +17,11 @@
     <!ELEMENT stock (#PCDATA)>
     <!ELEMENT reaconditioned EMPTY>
 
-    <!ELEMENT customers (customer)>
-    <!ELEMENT customer (id-card, first-name, first-surname, second-surname, telephone-number, postal-address)>
+    <!ELEMENT customers (customer*)>
+    <!ELEMENT customer (id-card, first-name?, first-surname?, second-surname?, telephone-number*, postal-address?)>
     <!ATTLIST customer id ID #REQUIRED>
-    <!ATTLIST customer date-creation CDATA #REQUIRED>
+    <!ATTLIST customer date-creation NMTOKEN #REQUIRED>
+
     <!ELEMENT id-card (#PCDATA)>
     <!ELEMENT first-name (#PCDATA)>
     <!ELEMENT first-surname (#PCDATA)>
@@ -26,39 +29,45 @@
     <!ELEMENT telephone-number (#PCDATA)>
     <!ELEMENT postal-address (#PCDATA)>
 
-    <!ELEMENT sales (sale)>
-    <!ELEMENT sale (#PCDATA)>
+    <!ELEMENT sales (sale*)>
+    <!ELEMENT sale (list-products-sold, total-price, currency)>
+    <!ATTLIST sale date-of-sale NMTOKEN #REQUIRED>
+    <!ATTLIST sale customer-id IDREF #REQUIRED>
+    <!ATTLIST sale product-id IDREF #REQUIRED>
+    <!ATTLIST sale quantity-sold NMTOKEN "1">
 
-
-
-
+    <!ELEMENT list-products-sold (#PCDATA)>
+    <!ELEMENT total-price (#PCDATA)>
+    <!ELEMENT currency (#PCDATA)>
 ]>
+
 <computer-shop>
     <products>
-        <product id="1" currency="" discount="" VAT="" EAN="">
-            <title></title>
-            <manufacturer></manufacturer>
-            <model></model>
-            <price></price>
-            <stock></stock>
-            <reaconditioned></reaconditioned>
+        <product id="p1" currency="EUR" discount="10" VAT="general" EAN="12523652782">
+            <title>Laptop Gamer</title>
+            <manufacturer>ASUS</manufacturer>
+            <model>ROG Zephyrus G14</model>
+            <price>1499</price>
+            <stock>5</stock>
+            <reaconditioned/>
         </product>
     </products>
+
     <customers>
-        <customer id="1" date-creation="14-02-2025">
-            <id-card></id-card>
-            <first-name></first-name>
-            <first-surname></first-surname>
-            <second-surname></second-surname>
-            <telephone-number></telephone-number>
-            <postal-address></postal-address>
+        <customer id="c1" date-creation="2025-02-14">
+            <id-card>45985695F</id-card>
+            <first-name>Juan</first-name>
+            <first-surname>Pérez</first-surname>
+            <telephone-number>600123456</telephone-number>
+            <postal-address>Calle Mayor 10, Madrid, España</postal-address>
         </customer>
     </customers>
+
     <sales>
-        <sale date-of-sale="14-02-2025" customer-id="1" product-id="1" quantity-sold="">
-            <list-products-sold></list-products-sold>
-            <total-price></total-price>
-            <currency></currency>
+        <sale date-of-sale="2025-02-15" customer-id="c1" product-id="p1" quantity-sold="1">
+            <list-products-sold>Laptop Gamer - ASUS ROG Zephyrus G14</list-products-sold>
+            <total-price>1349</total-price>
+            <currency>EUR</currency>
         </sale>
     </sales>
 </computer-shop>

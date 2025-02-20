@@ -1,0 +1,5 @@
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="students.xsd" id="1234">
+    <name>Teresa Muiños</name>
+    <born-year>1963</born-year>
+</student>

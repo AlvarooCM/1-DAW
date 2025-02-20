@@ -45,7 +45,7 @@ public class consultaMedica {
                     seleccionarData(scanner);
                     break;
                 case "d":
-                    System.out.println("Saindo do programa...");
+                    System.out.println("Saindo do programa");
                     return;
                 default:
                     System.out.println("Opción n inválida");

@@ -1,0 +1,5 @@
+<car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="car.xsd" registration="1234GHF">
+    <manufacturer>Toyota</manufacturer>
+    <model>Rav 4</model>
+</car>

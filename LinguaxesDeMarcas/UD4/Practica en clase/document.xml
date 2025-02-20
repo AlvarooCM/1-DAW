@@ -1,0 +1,9 @@
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="document.xsd">
+    <author>
+        <name>Suso de Toro</name>
+        <gender>male</gender>
+    </author>
+    <text>Hello World</text>
+    important!
+</document>
