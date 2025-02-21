@@ -1,0 +1,32 @@
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="purchaseOrder1.xsd" orderDate="">
+    <shipTo country="">
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip></zip>
+    </shipTo>
+    <billTo country="">
+        <name></name>
+        <street></street>
+        <city></city>
+        <state></state>
+        <zip></zip>
+    </billTo>
+    <items>
+        <item partNum="">
+            <productName></productName>
+            <quantity></quantity>
+            <USPrice></USPrice>
+            <comment></comment>
+            <shipDate></shipDate>
+        </item>
+        <item partNum="">
+            <productName></productName>
+            <quantity></quantity>
+            <USPrice></USPrice>
+            <shipDate></shipDate>
+        </item>
+    </items>
+</purchaseOrder>
