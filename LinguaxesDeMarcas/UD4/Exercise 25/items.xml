@@ -1,0 +1,12 @@
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="items.xsd">
+    <item>
+        <name>Manuel Rial Carnota</name>
+        <photo></photo>
+        <tags>PRET</tags>
+        <diameter>40</diameter>
+        <weight>12</weight>
+        <price_fields>9999999999.99</price_fields>
+        <size_fields>Big</size_fields>
+    </item>
+</items>

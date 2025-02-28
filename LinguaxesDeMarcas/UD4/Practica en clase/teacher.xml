@@ -1,0 +1,6 @@
+<teacher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="teacher.xsd">
+    <surnames>Oria Docampo</surnames>
+    <firstname>Susana</firstname>
+    <age>89</age>
+</teacher>

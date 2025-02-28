@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bond_movies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="bond" type="xs:string" />
+                            <xs:element name="bond_girl" type="xs:string" />
+                            <xs:element name="regie" type="xs:string" />
+                            <xs:element name="year" type="xs:gYear" />
+                            <xs:element name="duration" type="durationType" />
+                        </xs:sequence>
+                        <xs:attribute name="number" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="durationType">
+        <xs:restriction base="xs:int">
+            <xs:minExclusive value="0"></xs:minExclusive>
+            <xs:maxInclusive value="300"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="numberType">
+        <xs:restriction base="xs:string">
+        <xs:pattern value="_[0-9]{2}"></xs:pattern>  
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="monthType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="january"></xs:enumeration>
+            <xs:enumeration value="february"></xs:enumeration>
+            <xs:enumeration value="march"></xs:enumeration>
+            <xs:enumeration value="april"></xs:enumeration>
+            <xs:enumeration value="may"></xs:enumeration>
+            <xs:enumeration value="june"></xs:enumeration>
+            <xs:enumeration value="july"></xs:enumeration>
+            <xs:enumeration value="august"></xs:enumeration>
+            <xs:enumeration value="september"></xs:enumeration>
+            <xs:enumeration value="october"></xs:enumeration>
+            <xs:enumeration value="november"></xs:enumeration>
+            <xs:enumeration value="december"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
