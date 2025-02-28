@@ -1,0 +1,7 @@
+<house xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="house.xsd">
+    <room name="bathroom" number="2"></room>
+    <room name="living room" number="1"></room>
+    <room name="bedroom" number="3"></room>
+    <animal name="chicken" number="10"></animal>
+</house>

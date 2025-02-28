@@ -1,0 +1,9 @@
+<computer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="computer.xsd">
+    <hardware>Power supply</hardware>
+    <hardware>Motherboard</hardware>
+    <software>Windows 10</software>
+    <software>Paint</software>
+    <users>manuel bartolo paco susana</users>
+    <ages>21 30 69</ages>
+</computer>

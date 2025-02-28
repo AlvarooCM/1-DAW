@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="computer">
+        <xs:complexType>
+            <xs:group ref="computerGroup"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:group name="computerGroup">
+        <xs:sequence>
+            <xs:element name="hardware" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+            <xs:element name="software" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+            <xs:element name="users" type="userType"/>
+            <xs:element name="ages" type="ageType"/>
+        </xs:sequence>
+    </xs:group>
+    <xs:simpleType name="userType">
+        <xs:list itemType="xs:string"/>
+    </xs:simpleType>
+    <xs:simpleType name="ageType">
+        <xs:list itemType="xs:positiveInteger"/>
+    </xs:simpleType>
+</xs:schema>
