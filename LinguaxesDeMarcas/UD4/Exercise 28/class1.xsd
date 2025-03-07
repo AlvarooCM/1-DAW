@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Class">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Student">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="First_name" type="xs:string" />
+                                        <xs:element name="Last_name" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Projects">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Project1" type="xs:string" />
+                                        <xs:element name="Project2" type="xs:string" />
+                                        <xs:element name="Project3" type="xs:string" />
+                                        <xs:element name="Project4" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Tests">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Mid-term" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Final_grade" type="xs:string" />
+                            <xs:element name="Total" type="xs:string" />
+                            <xs:element name="Final_letter_grade" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="class_number" type="xs:integer" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

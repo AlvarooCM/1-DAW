@@ -1,0 +1,21 @@
+<Class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="class1.xsd" class_number="1">
+    <Student>
+        <Name>
+            <First_name>Manuel</First_name>
+            <Last_name>Rial</Last_name>
+        </Name>
+        <Projects>
+            <Project1>Lavadora de rueda</Project1>
+            <Project2>Patinete a vapor</Project2>
+            <Project3>Tortuga voladora</Project3>
+            <Project4>Coche con palas</Project4>
+        </Projects>
+        <Tests>
+            <Mid-term>Aprobado</Mid-term>
+        </Tests>
+        <Final_grade>A+</Final_grade>
+        <Total>100</Total>
+        <Final_letter_grade>A++</Final_letter_grade>
+    </Student>
+</Class>

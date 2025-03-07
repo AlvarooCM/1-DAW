@@ -1,0 +1,20 @@
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="juicers.xsd">
+    <juicer>
+        <name></name>
+        <image></image>
+        <description></description>
+        <weight></weight>
+        <cost></cost>
+        <cost></cost>
+        <retailer></retailer>
+    </juicer>
+    <juicer>
+        <name></name>
+        <image></image>
+        <description></description>
+        <warranty></warranty>
+        <cost></cost>
+        <retailer></retailer>
+    </juicer>
+</juicers>  
