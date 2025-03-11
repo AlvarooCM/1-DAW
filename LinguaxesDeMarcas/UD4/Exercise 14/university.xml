@@ -1,0 +1,13 @@
+<!DOCTYPE university SYSTEM "university.dtd">
+<university>
+    <department dept-name="Computer.Science" building="Taylor" budget="100000"> </department>
+    <department dept-name="Biology" building="Watson" budget="90000"> </department>
+    <course course-id="CS-101" title="Intro. to Computer Science" dept-name="Computer.Science" credits="4"> </course>
+    <course course-id="BIO-301" title="Genetics" dept-name="Biology." credits="4"> </course>
+    <instructor IID="I10101" name="Srinivasan" dept-name="Computer.Science" salary="65000"> </instructor>
+    <instructor IID="I83821" name="Brandt" dept-name="Computer.Science" salary="92000"> </instructor>
+    <instructor IID="I76766" name="Crick" dept-name="Biology" salary="72000"> </instructor>
+    <teaches IID="I10101" course-id="CS-101"> </teaches>
+    <teaches IID="I83821" course-id="CS-101"> </teaches>
+    <teaches IID="I76766" course-id="BIO-301"> </teaches>
+</university>

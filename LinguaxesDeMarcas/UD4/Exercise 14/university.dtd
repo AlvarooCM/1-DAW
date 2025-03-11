@@ -1,0 +1,18 @@
+<!ELEMENT university (department+,course+,instructor+,teaches+)>
+<!ELEMENT department (#PCDATA)>
+<!ATTLIST department dept-name ID #REQUIRED
+                    building NMTOKEN #REQUIRED
+                    budget NMTOKEN #REQUIRED>
+<!ELEMENT course (#PCDATA)>
+<!ATTLIST course course-id ID #REQUIRED
+                    title CDATA #REQUIRED
+                    dept-name CDATA #REQUIRED
+                    credits NMTOKEN #REQUIRED>
+<!ELEMENT instructor (#PCDATA)>
+<!ATTLIST instructor IID ID #REQUIRED
+                    name NMTOKEN #REQUIRED
+                    dept-name IDREF #REQUIRED
+                    salary NMTOKEN #REQUIRED>
+<!ELEMENT teaches (#PCDATA)>
+<!ATTLIST teaches IID IDREF #REQUIRED>
+<!ATTLIST teaches course-id IDREF #IMPLIED>
