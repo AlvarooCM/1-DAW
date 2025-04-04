@@ -6,7 +6,7 @@
 
     <xsl:template match="/">
         <products>
-            <xsl:apply-templates select="product"/>
+            <xsl:apply-templates select="products/product"/>
         </products>
     </xsl:template>
     <xsl:template name="product">
