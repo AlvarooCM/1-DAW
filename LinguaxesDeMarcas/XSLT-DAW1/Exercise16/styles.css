@@ -1,0 +1,17 @@
+.table-header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.price-low {
+    background-color: aquamarine;
+}
+
+.price-medium {
+    background-color: gold;
+}
+
+.price-high {
+    background-color: crimson;
+    color: white;
+}
