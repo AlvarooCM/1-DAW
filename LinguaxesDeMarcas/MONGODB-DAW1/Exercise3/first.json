@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Mujercita",
+        "writer":"Louisa May Alcott",
+        "year":"2019",
+        "actors":["Florence Pugh","Emma Watson"]
+    },
+    {
+        "title":"Mujercita",
+        "writer":"Jane Austen",
+        "year":"2005",
+        "actors":["Donald Sutherland","Judi Dench"]
+    },
+    {
+        "title":"Misery",
+        "writer":"Louisa May Alcott",
+        "year":"1990",
+        "actors":["James Caan","Frances Sternhagen","Lauren Bacall"]
+    },
+    {
+        "title":"Harry Potter y la piedra filosofal",
+        "writer":"JK.Rowling",
+        "year":"2001",
+        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+    },
+    {
+        "title":"Harry Potter y la camara secreta",
+        "writer":"JK.Rowling",
+        "year":"2002",
+        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+    },
+    {
+        "title":"Harry Potter y el",
+        "writer":"JK.Rowling",
+        "year":"2001",
+        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+    }
+]
