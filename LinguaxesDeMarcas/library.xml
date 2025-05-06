@@ -1,0 +1,52 @@
+<library>
+ <book año="1994">
+ <title>TCP/IP Illustrated</title>
+ <author>
+ <surname>Stevens</surname>
+ <name>W.</name>
+ </author>
+ <publisher>Addison-Wesley</publisher>
+ <price> 65.95</price>
+ </book>
+
+ <book año="1992">
+ <title>Advan Programming for Unix environment</title>
+ <author>
+
+ <surname>Stevens</surname>
+ <name>W.</name>
+ </author>
+ <publisher>Addison-Wesley</publisher>
+ <price>65.95</price>
+ </book>
+
+ <book año="2000">
+ <title>Data on the Web</title>
+ <author>
+ <surname>Abiteboul</surname>
+ <name>Serge</name>
+ </author>
+ <author>
+ <surname>Buneman</surname>
+ <name>Peter</name>
+ </author>
+ <author>
+ <surname>Suciu</surname>
+ <name>Dan</name>
+ </author>
+ <publisher>Morgan Kaufmann publishers</publisher>
+ <price>39.95</price>
+ </book>
+
+ <book año="1999">
+ <title> Economics of Technology for Digital TV</title>
+ <editor>
+ <surname>Gerbarg</surname>
+ <name>Darcy</name>
+ <membership>CITI</membership>
+ </editor>
+ <publisher>Kluwer Academic publishers</publisher>
+ <price>129.95</price>
+ </book>
+
+</library> 

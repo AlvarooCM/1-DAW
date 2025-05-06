@@ -21,18 +21,24 @@
         "title":"Harry Potter y la piedra filosofal",
         "writer":"JK.Rowling",
         "year":"2001",
-        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+        "franchise":["Harry Potter"]
     },
     {
         "title":"Harry Potter y la camara secreta",
         "writer":"JK.Rowling",
         "year":"2002",
-        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+        "franchise":["Harry Potter"]
     },
     {
-        "title":"Harry Potter y el",
+        "title":"Harry Potter y el prisionero de Azkaban",
         "writer":"JK.Rowling",
-        "year":"2001",
-        "actors":["Emma Watson","Rupert Grint","Daniel Radcliffe"]
+        "year":"2004",
+        "franchise":["Harry Potter"]
+    },
+    {
+        "title":"IT" 
+    },
+    {
+        "title":"Saw III"
     }
 ]
